@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Midas D'Or</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <header>
+        <h1>Midas D'Or</h1>
+        <p>Acessórios</p>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Entre em contato</h2>
+
+            <p>
+                Tem alguma dúvida, sugestão ou quer saber mais
+                sobre nossos acessórios? Envie uma mensagem
+                para a Midas D'Or.
+            </p>
+        </section>
+
+        <section class="secao">
+
+            <h2>Informações da loja</h2>
+
+            <p>
+                <strong>Endereço:</strong>
+                Rua das Palmeiras, 250 — Centro, Dourados - MS
+            </p>
+
+            <p>
+                <strong>Telefone:</strong>
+                (67) 99999-2020
+            </p>
+
+            <p>
+                <strong>E-mail:</strong>
+                contato@midasdor.com
+            </p>
+
+            <p>
+                <strong>Redes sociais:</strong><br>
+                Instagram: @midasdor.acessorios<br>
+                TikTok: @midasdor
+            </p>
+
+            <p>Atendimento fictício para fins escolares.</p>
+
+        </section>
+
+        <section class="secao">
+
+            <h2>Envie sua mensagem</h2>
+
+            <form action="mailto:contato@midasdor.com"
+            method="post" enctype="text/plain">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome"
+                placeholder="Digite seu nome" maxlength="60" required>
+
+                <br><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email"
+                placeholder="seuemail@exemplo.com" required>
+
+                <br><br>
+
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto" required>
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="Duvida sobre produtos">Dúvida sobre produtos</option>
+                    <option value="Sugestao">Sugestão</option>
+                    <option value="Parceria">Parceria</option>
+                    <option value="Outro">Outro</option>
+                </select>
+
+                <br><br>
+
+                <label for="mensagem">Mensagem:</label>
+                <br>
+
+                <textarea id="mensagem" name="mensagem"
+                placeholder="Escreva sua mensagem..."
+                maxlength="500" required></textarea>
+
+                <br><br>
+
+                <button type="submit">Enviar mensagem</button>
+                <button type="reset">Limpar</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Midas D'Or - Acessórios</p>
+        <p>© 2026 - Site desenvolvido para atividade escolar.</p>
+    </footer>
+
+</body>
+</html>
